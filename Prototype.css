@@ -33,7 +33,7 @@
 }
 
 .Logo button{
-    width: 100px;
+    width: 150px;
     height: 40px;
     cursor: pointer;
     margin-left: 10px;
@@ -56,8 +56,9 @@
 .Logo li:nth-child(3) {
     margin-left: auto; /* Pushes buttons to the right */
 }
-.Logo li:nth-child(4) button {
-    width: 150px;
+/*Help button*/
+.Logo li:nth-child(4) button { 
+    width: 100px;
 }
 /* LOGO */
 
@@ -97,6 +98,9 @@
     padding: 15px 25px;
     font-size: 14px;
     color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Menu button:hover{
@@ -294,13 +298,12 @@
 .slide1Pt1 {
     width: 350px;
     height: auto;
-    background-color: blue;
 
 }
 
-.slide1Pt1 img{
-    width: 320px;
-    height: auto;
+.slide1Pt2 {
+    width: 450px; 
+    height: 320px;
 
 }
 
@@ -308,7 +311,7 @@
     position: absolute;
     display: flex;
     z-index: 10;
-    top: 41%;
+    top: 50%;
     right: 0;
     left: 0;
     transform: translateY(-50%);
@@ -320,7 +323,7 @@
 .Button button{
     width: 45px;
     height: 45px;
-    background-color: rgba(213, 213, 213, 0.374);
+    background-color: rgba(213, 213, 213, 0.699);
     color: black;
     font-size: large;
     border: none;
@@ -335,15 +338,14 @@
     overflow: hidden;
     width: 100%;
     position: relative;
-    max-width: 1200px;
-    margin: auto;
+    max-width: 1800px;
 }
 
 #FlightContent {
     display: flex;
     transition: transform 0.5s ease-in-out;
     gap: 30px;
-}
+} 
 
 #FlightContent img{
     width: 320px;
@@ -352,6 +354,8 @@
 
 .carousel-item {
     transition: transform 0.5s ease;
+    min-width: 800px;
+    box-sizing: border-box;
     flex-shrink: 0;
 }
 
@@ -390,5 +394,87 @@
 
 .dropdown-menu a:hover {
     text-decoration: underline;
+}
+/*Drop down menu*/
+
+#viewAll {
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    background-color: rgb(255, 183, 0);
+}
+
+/*Fly Dream Air*/
+
+.FlyDreamAir {
+    width: 70%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.FDAdisplay{
+    min-width: 1000px;
+    max-width: 1800px;
+    background-color: rgb(235, 235, 235);
+    height: 200px;
+}
+
+.FDAdisplay ul li{
+    width: 25%;
+}
+
+.FDA1{
+    min-width: 150px;
+    max-width: 400px;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+}
+/*Fly Dream Air*/
+
+.Background5{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(68, 67, 67);
+}
+
+.Background5-1 {
+    min-width: 50%;
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+/**/
+.tableContent ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.tableContent1 ul li {
+    margin-bottom: 12px;
+}
+
+.tableContent {
+    justify-content: space-between;
+}
+
+.tableContent1 {
+    min-width: 150px;
+    max-width: 300px;
+    height: 200px;
+}
+
+#App {
+    width: 400px;
+    height: 200px;
+    text-align: left;
+}
+
+#App ul {
+    gap: 10px;
+}
+
+.SocialMedia ul li img{
+    width: 40px;
+    height: 40px;
 }
 
