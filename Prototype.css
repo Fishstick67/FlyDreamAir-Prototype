@@ -292,9 +292,15 @@
 }
 
 .slide1Pt1 {
-    width: 320px;
+    width: 350px;
     height: auto;
     background-color: blue;
+
+}
+
+.slide1Pt1 img{
+    width: 320px;
+    height: auto;
 
 }
 
